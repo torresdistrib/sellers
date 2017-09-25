@@ -1,0 +1,24 @@
+{
+    "name": "jpt/sellers",
+    "type": "project",
+    "authors": [
+        {
+            "name": "zeli",
+            "email": "jpedrotorres@gmail.com"
+        }
+    ],
+	"config": {
+		"vendor-dir": "composer_vendor"
+	},
+    "require": {
+        "twitter/bootstrap": "^3.3"
+    },
+	"prefer-stable": true,
+	"minimum-stability": "beta",
+	"repositories": [
+    {
+        "type": "vcs",
+    	"url": "https://github.com/torresdistrib/sellers"
+	}
+]
+}
